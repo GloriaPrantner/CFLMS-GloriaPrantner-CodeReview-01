@@ -1,0 +1,140 @@
+*	{
+	font-family: 'Dosis', sans-serif;
+	margin: 0;
+ 	padding: 0;
+}
+
+#wrap {
+	margin:auto;
+	width: 60em;
+}
+
+/* Header styling */
+#banner {
+	background-color: #CABBB7;
+	overflow: auto;
+}
+
+#title {
+	display: inline-block;
+	width: 20em;
+	margin-top: 3em;
+	margin-left: 4em;	
+}
+
+#headlogo {
+	float: right;
+	width: 20em;
+	margin: 2em;
+}
+
+#navigation {
+	background-color: #C65252;
+	height: 4em;
+	overflow: hidden;
+}
+
+#navigation ul {
+	list-style: none;
+	margin-left: 33em;
+}
+
+#navigation li {
+	float: left;	
+}
+
+#navigation ul a {
+	display: block;
+	margin-top: 0.65em;
+	margin-bottom: 0.75em;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+	color: #CABBB7;
+	text-decoration: none;
+	font-size: 1.5em;		
+}
+
+#navigation ul a:hover {
+	color: black;
+}
+
+/* main styling */
+
+#welcome {
+	height: 7em;
+	font-size: 2em;
+	text-align: center;
+}
+
+#welcometitle {
+	display: inline-block;
+	height: 3.5em;
+	width: 10em;
+	margin-top: 0.5em;
+}
+
+#bigimg img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50em;
+}
+
+#caption {
+	text-align: center;
+	font-weight: 900;
+	height: 4em;
+}
+
+.smallimg {
+	display: inline-block;
+}
+
+.smallimg img {
+	width: 24em;
+	height: 15em;
+}
+
+#small1 {
+	margin-left: 5em;
+	margin-right: 1em;
+	overflow: hidden;
+}
+
+#small2 {
+	margin-left: 1em;
+	margin-right: 4em;
+	overflow: hidden;
+
+}
+
+.smallcaption {
+	text-align: center;
+	font-weight: 900;
+	height: 4em;
+	width: 24em
+}
+
+/* footer styling */
+footer {
+	background-color: #CABBB7;
+	width: 60em;
+	height: 10em;
+}
+
+
+footer img, #imprint {
+	width: 15em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer img {
+	padding-top:2em;
+}
+
+#imprint {
+	padding-top:1em;
+	font-size: small;
+}
