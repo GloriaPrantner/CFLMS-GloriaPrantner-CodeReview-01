@@ -1,3 +1,4 @@
+/*This sheet contains the full style for the header and footer for the hole website*/
 *	{
 	font-family: 'Dosis', sans-serif;
 	margin: 0;
@@ -5,7 +6,7 @@
 }
 
 #wrap {
-	margin:auto;
+	margin: auto;
 	width: 60em;
 }
 
@@ -51,7 +52,7 @@
 	margin-left: 0.5em;
 	color: #CABBB7;
 	text-decoration: none;
-	font-size: 1.5em;		
+	font-size: 1.5em;	
 }
 
 #navigation ul a:hover {
@@ -62,7 +63,7 @@
 
 #welcome {
 	height: 7em;
-	font-size: 2em;
+	 font-size: large;
 	text-align: center;
 }
 
@@ -82,8 +83,9 @@
 
 #caption {
 	text-align: center;
-	font-weight: 900;
 	height: 4em;
+	font-weight: 900;
+
 }
 
 .smallimg {

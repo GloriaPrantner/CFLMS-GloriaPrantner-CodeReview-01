@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="description" content="This blog is mainly about technical stuff, but you will find other news too. ">
+		<meta name="author" content="Gloria Prantner">
+		<meta charset="utf-8">
+
+		<title>Contact Me</title>
+
+		<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="indexstyles.css">
+		<link rel="stylesheet" type="text/css" href="contactstyles.css">
+	</head>
+	<body>
+
+		<div id="wrap">
+
+			<header>
+						
+				<!-- Banner with Title and Logo -->
+				<div id="banner">
+					<h2 id="title">Gloria Prantner - Full-Stack Web Developer</h2>
+					<img src="img/logo.png" alt= "logo" id="headlogo">
+				</div>
+
+				<!-- Navigation bar -->
+				<nav id="navigation">
+					<ul>
+						<li><a href="index.html" title="Home">Home</a></li>
+						<li><a href="blog.html" title="Blog">Blog</a></li>
+						<li><a href="aboutme.html" title="About Me">About Me</a></li>
+						<li><a href="contact.html" title="Contact">Contact</a></li>
+					</ul>
+				</nav>
+
+			</header>
+
+			<main>
+				
+				<div id="contactme" >
+
+					<h3> Please insert your data for contacting me:</h3>
+
+				</div>
+
+				
+				<form id="inserts">
+
+					First name:<br>
+					<input type="text" name="firstname" placeholder="Who"><br>
+					Last name:<br>
+					<input type="text" name="lastname"  placeholder="are"><br>
+					Age:<br>
+					<input type="text" name="age"  placeholder="you"><br>
+					Mail:<br>
+					<input type="text" name="mail"  placeholder="?"><br>
+
+					<input type="radio" name="gender" value="female" checked> Female<br>
+					<input type="radio" name="gender" value="male"> Male<br>
+					<input type="radio" name="gender" value="other"> Other<br>
+
+					Are you a cat or a dog person?<br>
+					<select name="catordog">                                                                                  
+					   <option value="cat" selected>Cat</option>
+					   <option value="dog">Dog</option>                              
+					   <option value="duck">Duck</option>                              
+					</select>
+					<br>
+					Your Message:
+					<textarea name="message" rows="5" cols="30"></textarea>
+
+					<input type="submit" value="Thank you &#10084;" onclick="clicked()">
+
+				</form>	
+				
+				<figure id=frog>
+					<img src="img/frog.jpeg" alt="frog">
+					<figcaption>Who are u?</figcaption>
+				</figure>
+
+				<script type="text/javascript">
+					
+					function clicked() {
+							alert("All your data is mine now! haha")
+					}
+				</script>
+				
+			</main>
+
+			<footer>
+
+					<img src="img/logo.png" alt="logo">
+
+					<p id="imprint">Gloria Prantner - Code Factory 2020</p>
+					
+			</footer>
+
+		</div>
+
+	</body>
+
+</html>
